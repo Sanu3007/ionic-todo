@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section-center {
+  width: 90%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+.form-center {
+  /* border: 2px solid red; */
+  padding: 2rem;
+  width: 80%;
+  margin: 3rem auto;
+  /* margin-bottom: 3rem; */
+  box-shadow: -3px 2px 16px -6px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -3px 2px 16px -6px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -3px 2px 16px -6px rgba(0, 0, 0, 0.75);
+}
+
+.btn {
+  margin-top: 2rem;
+}
+
+/* .todo-card {
+  border: 2px solid red;
+  padding: 1rem;
+} */
+
+.card-item {
+  /* border: 2px solid red; */
+  margin-bottom: 1rem;
+  padding: 1rem;
+  box-shadow: 9px 7px 8px -7px rgba(0, 0, 0, 0.41);
+  -webkit-box-shadow: 9px 7px 8px -7px rgba(0, 0, 0, 0.41);
+  -moz-box-shadow: 9px 7px 8px -7px rgba(0, 0, 0, 0.41);
+}
+.logo {
+  margin-left: 2%;
+  font-size: 2rem;
+}
+.icons {
+  /* border: 2px solid black; */
+  font-size: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 0.8rem;
+}
+.delete-icon,
+.edit-icon {
+  cursor: pointer;
+}
+span {
+  margin-right: 0.5rem;
+}
